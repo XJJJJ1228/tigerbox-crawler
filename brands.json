@@ -1,0 +1,297 @@
+{
+  "brands": [
+    {
+      "name": "麦当劳",
+      "keywords": ["麦当劳", "mcdonalds", "金拱门"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 1,
+        "desc": "每周一会员日，会员专属优惠"
+      },
+      "sources": {
+        "wechat": "麦当劳",
+        "weibo": "麦当劳",
+        "douyin": "麦当劳"
+      },
+      "tags": ["快餐"]
+    },
+    {
+      "name": "肯德基",
+      "keywords": ["肯德基", "KFC"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 4,
+        "desc": "疯狂星期四，各种限时特价"
+      },
+      "sources": {
+        "wechat": "肯德基",
+        "weibo": "肯德基",
+        "douyin": "肯德基"
+      },
+      "tags": ["快餐"]
+    },
+    {
+      "name": "塔斯汀",
+      "keywords": ["塔斯汀", "tastien"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 2,
+        "desc": "每周二会员日，特价套餐"
+      },
+      "sources": {
+        "wechat": "塔斯汀中国汉堡",
+        "weibo": "塔斯汀",
+        "douyin": "塔斯汀"
+      },
+      "tags": ["快餐"]
+    },
+    {
+      "name": "达美乐",
+      "keywords": ["达美乐", "dominos"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 3,
+        "desc": "每周三七折优惠"
+      },
+      "sources": {
+        "wechat": "达美乐比萨",
+        "weibo": "达美乐"
+      },
+      "tags": ["西餐"]
+    },
+    {
+      "name": "海底捞",
+      "keywords": ["海底捞", "haidilao"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 5,
+        "desc": "周五会员日，积分双倍"
+      },
+      "sources": {
+        "wechat": "海底捞火锅",
+        "weibo": "海底捞"
+      },
+      "tags": ["火锅"]
+    },
+    {
+      "name": "瑞幸咖啡",
+      "keywords": ["瑞幸", "luckin"],
+      "schedule": {
+        "type": "monthly",
+        "day": 1,
+        "desc": "每月1日会员日，9.9元咖啡"
+      },
+      "sources": {
+        "wechat": "luckincoffee瑞幸咖啡",
+        "weibo": "瑞幸咖啡",
+        "douyin": "瑞幸咖啡"
+      },
+      "tags": ["咖啡"]
+    },
+    {
+      "name": "星巴克",
+      "keywords": ["星巴克", "starbucks"],
+      "schedule": {
+        "type": "monthly",
+        "day": 12,
+        "desc": "每月12日会员日，星星双倍"
+      },
+      "sources": {
+        "wechat": "星巴克中国",
+        "weibo": "星巴克"
+      },
+      "tags": ["咖啡"]
+    },
+    {
+      "name": "古茗",
+      "keywords": ["古茗", "guming"],
+      "schedule": {
+        "type": "monthly",
+        "day": 20,
+        "desc": "每月20日会员日，公众号抢券"
+      },
+      "sources": {
+        "wechat": "古茗茶饮",
+        "weibo": "古茗",
+        "douyin": "古茗"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "益禾堂",
+      "keywords": ["益禾堂"],
+      "schedule": {
+        "type": "monthly",
+        "day": 8,
+        "desc": "每月8日会员日，买一送一"
+      },
+      "sources": {
+        "wechat": "益禾堂",
+        "weibo": "益禾堂"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "德克士",
+      "keywords": ["德克士", "dicos"],
+      "schedule": {
+        "type": "monthly",
+        "day": 18,
+        "desc": "每月18日会员日，专属套餐"
+      },
+      "sources": {
+        "wechat": "德克士",
+        "weibo": "德克士"
+      },
+      "tags": ["快餐"]
+    },
+    {
+      "name": "茶百道",
+      "keywords": ["茶百道", "cha-panda"],
+      "schedule": {
+        "type": "monthly",
+        "day": 11,
+        "desc": "每月11日会员日，第二杯半价"
+      },
+      "sources": {
+        "wechat": "茶百道",
+        "weibo": "茶百道",
+        "douyin": "茶百道"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "霸王茶姬",
+      "keywords": ["霸王茶姬", "chagee"],
+      "schedule": {
+        "type": "monthly",
+        "day": 17,
+        "desc": "每月17日会员日，积分翻倍"
+      },
+      "sources": {
+        "wechat": "霸王茶姬",
+        "weibo": "霸王茶姬"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "蜜雪冰城",
+      "keywords": ["蜜雪冰城", "mixue"],
+      "schedule": {
+        "type": "monthly",
+        "day": 6,
+        "desc": "每月6日会员日，特价饮品"
+      },
+      "sources": {
+        "wechat": "蜜雪冰城",
+        "weibo": "蜜雪冰城",
+        "douyin": "蜜雪冰城"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "华莱士",
+      "keywords": ["华莱士", "cnhls"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 5,
+        "desc": "周五会员日，套餐特价"
+      },
+      "sources": {
+        "wechat": "华莱士",
+        "weibo": "华莱士"
+      },
+      "tags": ["快餐"]
+    },
+    {
+      "name": "零食很忙",
+      "keywords": ["零食很忙"],
+      "schedule": {
+        "type": "monthly",
+        "day": 9,
+        "desc": "每月9日会员日，满减优惠"
+      },
+      "sources": {
+        "wechat": "零食很忙",
+        "douyin": "零食很忙"
+      },
+      "tags": ["零食"]
+    },
+    {
+      "name": "赵一鸣零食",
+      "keywords": ["赵一鸣"],
+      "schedule": {
+        "type": "monthly",
+        "day": 16,
+        "desc": "每月16日会员日，特价零食"
+      },
+      "sources": {
+        "wechat": "赵一鸣零食",
+        "douyin": "赵一鸣零食"
+      },
+      "tags": ["零食"]
+    },
+    {
+      "name": "好想来零食",
+      "keywords": ["好想来"],
+      "schedule": {
+        "type": "monthly",
+        "day": 22,
+        "desc": "每月22日会员日，满减特惠"
+      },
+      "sources": {
+        "wechat": "好想来",
+        "douyin": "好想来零食"
+      },
+      "tags": ["零食"]
+    },
+    {
+      "name": "库迪咖啡",
+      "keywords": ["库迪", "cotti"],
+      "schedule": {
+        "type": "weekly",
+        "weekday": 2,
+        "desc": "每周二会员日，8.8元咖啡"
+      },
+      "sources": {
+        "wechat": "库迪咖啡",
+        "weibo": "库迪咖啡",
+        "douyin": "库迪咖啡"
+      },
+      "tags": ["咖啡"]
+    },
+    {
+      "name": "沪上阿姨",
+      "keywords": ["沪上阿姨"],
+      "schedule": {
+        "type": "monthly",
+        "day": 15,
+        "desc": "每月15日会员日，第二杯半价"
+      },
+      "sources": {
+        "wechat": "沪上阿姨",
+        "weibo": "沪上阿姨"
+      },
+      "tags": ["奶茶"]
+    },
+    {
+      "name": "书亦烧仙草",
+      "keywords": ["书亦", "烧仙草"],
+      "schedule": {
+        "type": "monthly",
+        "day": 7,
+        "desc": "每月7日会员日，满减优惠"
+      },
+      "sources": {
+        "wechat": "书亦烧仙草",
+        "weibo": "书亦烧仙草"
+      },
+      "tags": ["奶茶"]
+    }
+  ],
+  "platforms": {
+    "weibo_search_url": "https://m.weibo.cn/api/container/getIndex",
+    "douyin_search_url": "https://www.douyin.com/aweme/v1/web/general/search/single/",
+    "wechat_article_sources": []
+  }
+}
