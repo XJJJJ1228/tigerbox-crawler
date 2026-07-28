@@ -1,0 +1,36 @@
+name: TigerBox Daily Crawl
+
+on:
+  schedule:
+    - cron: '0 0,4 * * *'
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run crawler
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: |
+          python crawl.py
+
+      - name: Commit deal backups
+        run: |
+          git config user.name "TigerBox Bot"
+          git config user.email "bot@tigerbox.local"
+          git add deals_*.json || true
+          git commit -m "Update deals backup - $(date -u +%Y-%m-%d)" || true
+          git push || true
