@@ -82,6 +82,7 @@ CRAWL_INTERVAL = getattr(config, 'CRAWL_INTERVAL', 2)
 # 注意: 索引遵循 JavaScript getDay() 约定 (0=周日, 1=周一, ..., 6=周六)
 # 与 brands.json 中的 weekday 值一致
 WEEKDAYS_CN = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
+WEEKDAYS_SHORT = ['日', '一', '二', '三', '四', '五', '六']
 
 
 # ===================== 品牌数据库 =====================
@@ -95,9 +96,6 @@ def load_brands():
 def get_today_schedule(brands_data):
     """获取今日有优惠的品牌"""
     today = datetime.date.today()
-    # Python weekday(): 0=Monday ... 6=Sunday
-    # JavaScript getDay(): 0=Sunday, 1=Monday ... 6=Saturday
-    # brands.json 使用 JavaScript 约定，需要转换
     py_weekday = today.weekday()
     today_weekday = (py_weekday + 1) % 7  # 转为 JS 约定
     today_day = today.day
@@ -114,7 +112,7 @@ def get_today_schedule(brands_data):
             brand_weekday = schedule.get('weekday', 0)
             if brand_weekday == today_weekday:
                 is_today = True
-                recurrence = f"每周{WEEKDAYS_CN[brand_weekday]}"
+                recurrence = f"每周{WEEKDAYS_SHORT[brand_weekday]}"
         elif stype == 'monthly':
             if schedule.get('day') == today_day:
                 is_today = True
@@ -135,6 +133,110 @@ def get_today_schedule(brands_data):
             print(f"  ✓ {brand['name']} - {deal['title']}")
 
     return deals
+
+
+def get_week_schedule(brands_data):
+    """获取本周所有品牌的优惠日（按星期几分组）"""
+    today = datetime.date.today()
+    # 本周周一
+    monday = today - datetime.timedelta(days=today.weekday())
+    week_deals = []
+
+    for brand in brands_data.get('brands', []):
+        schedule = brand.get('schedule', {})
+        if schedule.get('type') != 'weekly':
+            continue
+
+        brand_weekday = schedule.get('weekday', 0)
+        # JS weekday: 0=Sunday → py day offset from Monday
+        py_day_offset = (brand_weekday - 1) % 7  # 0=Monday
+        deal_date = monday + datetime.timedelta(days=py_day_offset)
+
+        # 如果该日期已过（在上半周），仍然列出，标注"已过"
+        is_past = deal_date < today
+
+        deal = {
+            'title': f"{brand['name']} {schedule.get('desc', '优惠活动').split('，')[0]}",
+            'notes': schedule.get('desc', ''),
+            'brand': brand['name'],
+            'date': deal_date.isoformat(),
+            'weekday': brand_weekday,
+            'weekdayName': WEEKDAYS_CN[brand_weekday],
+            'recurrence': f"每周{WEEKDAYS_SHORT[brand_weekday]}",
+            'tags': brand.get('tags', []),
+            'isPast': is_past,
+            'isToday': deal_date == today
+        }
+        week_deals.append(deal)
+
+    # 按日期排序
+    week_deals.sort(key=lambda x: x['date'])
+    return week_deals
+
+
+def get_month_schedule(brands_data):
+    """获取本月所有品牌的会员日（按日期分组）"""
+    today = datetime.date.today()
+    month_deals = []
+
+    for brand in brands_data.get('brands', []):
+        schedule = brand.get('schedule', {})
+        if schedule.get('type') != 'monthly':
+            continue
+
+        day = schedule.get('day', 0)
+        # 处理超出本月天数的情况
+        import calendar
+        last_day = calendar.monthrange(today.year, today.month)[1]
+        actual_day = min(day, last_day)
+
+        try:
+            deal_date = today.replace(day=actual_day)
+        except ValueError:
+            continue
+
+        is_past = deal_date < today
+
+        deal = {
+            'title': f"{brand['name']} {schedule.get('desc', '优惠活动').split('，')[0]}",
+            'notes': schedule.get('desc', ''),
+            'brand': brand['name'],
+            'date': deal_date.isoformat(),
+            'monthDay': day,
+            'recurrence': f"每月{day}日",
+            'tags': brand.get('tags', []),
+            'isPast': is_past,
+            'isToday': deal_date == today
+        }
+        month_deals.append(deal)
+
+    month_deals.sort(key=lambda x: x['date'])
+    return month_deals
+
+
+def get_all_brands(brands_data):
+    """获取所有品牌的完整日历信息"""
+    all_brands = []
+    for brand in brands_data.get('brands', []):
+        schedule = brand.get('schedule', {})
+        stype = schedule.get('type', '')
+        recurrence = ''
+        if stype == 'weekly':
+            recurrence = f"每周{WEEKDAYS_SHORT[schedule.get('weekday', 0)]}"
+        elif stype == 'monthly':
+            recurrence = f"每月{schedule.get('day', '')}日"
+
+        all_brands.append({
+            'name': brand['name'],
+            'scheduleType': stype,
+            'scheduleDesc': schedule.get('desc', ''),
+            'recurrence': recurrence,
+            'weekday': schedule.get('weekday') if stype == 'weekly' else None,
+            'monthDay': schedule.get('day') if stype == 'monthly' else None,
+            'tags': brand.get('tags', []),
+            'wechat': brand.get('sources', {}).get('wechat', '')
+        })
+    return all_brands
 
 
 # ===================== 微博抓取 =====================
@@ -328,6 +430,20 @@ def run_crawl(test_mode=False):
     all_deals.extend(today_deals)
     print(f"   今日品牌优惠: {len(today_deals)} 条")
 
+    # 2b. 获取本周完整优惠日历
+    print("\n🗓 计算本周优惠日历...")
+    week_deals = get_week_schedule(brands_data)
+    print(f"   本周优惠日: {len(week_deals)} 条")
+
+    # 2c. 获取本月完整会员日历
+    print("\n📆 计算本月会员日历...")
+    month_deals = get_month_schedule(brands_data)
+    print(f"   本月会员日: {len(month_deals)} 条")
+
+    # 2d. 获取全部品牌信息
+    all_brands_info = get_all_brands(brands_data)
+    print(f"   品牌总数: {len(all_brands_info)} 个")
+
     # 3. 抓取微博实时优惠
     if ENABLE_WEIBO:
         print("\n📱 抓取微博实时优惠...")
@@ -366,15 +482,28 @@ def run_crawl(test_mode=False):
             unique_deals.append(deal)
 
     # 7. 组装最终数据
+    today = datetime.date.today()
     result = {
-        'version': '1.0',
+        'version': '2.0',
         'updatedAt': datetime.datetime.now().isoformat(),
-        'updateDate': datetime.date.today().isoformat(),
+        'updateDate': today.isoformat(),
+        'todayWeekday': (today.weekday() + 1) % 7,  # JS convention
+        'todayDay': today.day,
+        'totalBrands': len(all_brands_info),
         'totalDeals': len(unique_deals),
-        'deals': unique_deals
+        'todayCount': len(today_deals),
+        'weekCount': len(week_deals),
+        'monthCount': len(month_deals),
+        # 向后兼容: deals 字段保留（App 旧版用这个）
+        'deals': unique_deals,
+        # 新字段: 更丰富的数据
+        'todayDeals': today_deals,
+        'weekDeals': week_deals,
+        'monthDeals': month_deals,
+        'allBrands': all_brands_info
     }
 
-    print(f"\n📊 汇总: 共 {len(unique_deals)} 条优惠信息")
+    print(f"\n📊 汇总: 今日{len(today_deals)}条 | 本周{len(week_deals)}条 | 本月{len(month_deals)}条 | 总品牌{len(all_brands_info)}个")
 
     # 8. 保存本地备份
     backup_file = SCRIPT_DIR / f"deals_{datetime.date.today().isoformat()}.json"
