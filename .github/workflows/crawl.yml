@@ -2,7 +2,7 @@ name: TigerBox Daily Crawl
 
 on:
   schedule:
-    - cron: '0 0,4 * * *'
+    - cron: '0 0,4,16 * * *'
   workflow_dispatch:
 
 jobs:
