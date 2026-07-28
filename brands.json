@@ -2,291 +2,3636 @@
   "brands": [
     {
       "name": "麦当劳",
-      "keywords": ["麦当劳", "mcdonalds", "金拱门"],
+      "keywords": [
+        "麦当劳",
+        "mcdonalds",
+        "金拱门"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 1,
-        "desc": "每周一会员日，会员专属优惠"
+        "desc": "每周一会员日，会员专属优惠套餐",
+        "weekday": 1
       },
       "sources": {
         "wechat": "麦当劳",
         "weibo": "麦当劳",
         "douyin": "麦当劳"
       },
-      "tags": ["快餐"]
+      "tags": [
+        "快餐"
+      ]
     },
     {
       "name": "肯德基",
-      "keywords": ["肯德基", "KFC"],
+      "keywords": [
+        "肯德基",
+        "KFC"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 4,
-        "desc": "疯狂星期四，各种限时特价"
+        "desc": "疯狂星期四，各种限时特价",
+        "weekday": 4
       },
       "sources": {
         "wechat": "肯德基",
         "weibo": "肯德基",
         "douyin": "肯德基"
       },
-      "tags": ["快餐"]
+      "tags": [
+        "快餐"
+      ]
     },
     {
       "name": "塔斯汀",
-      "keywords": ["塔斯汀", "tastien"],
+      "keywords": [
+        "塔斯汀",
+        "tastien"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 2,
-        "desc": "每周二会员日，特价套餐"
+        "desc": "每周二会员日，特价套餐",
+        "weekday": 2
       },
       "sources": {
         "wechat": "塔斯汀中国汉堡",
         "weibo": "塔斯汀",
         "douyin": "塔斯汀"
       },
-      "tags": ["快餐"]
+      "tags": [
+        "快餐"
+      ]
     },
     {
-      "name": "达美乐",
-      "keywords": ["达美乐", "dominos"],
+      "name": "华莱士",
+      "keywords": [
+        "华莱士",
+        "cnhls"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 3,
-        "desc": "每周三七折优惠"
+        "desc": "周五会员日，套餐特价",
+        "weekday": 5
       },
       "sources": {
-        "wechat": "达美乐比萨",
-        "weibo": "达美乐"
+        "wechat": "华莱士",
+        "weibo": "华莱士"
       },
-      "tags": ["西餐"]
-    },
-    {
-      "name": "海底捞",
-      "keywords": ["海底捞", "haidilao"],
-      "schedule": {
-        "type": "weekly",
-        "weekday": 5,
-        "desc": "周五会员日，积分双倍"
-      },
-      "sources": {
-        "wechat": "海底捞火锅",
-        "weibo": "海底捞"
-      },
-      "tags": ["火锅"]
-    },
-    {
-      "name": "瑞幸咖啡",
-      "keywords": ["瑞幸", "luckin"],
-      "schedule": {
-        "type": "monthly",
-        "day": 1,
-        "desc": "每月1日会员日，9.9元咖啡"
-      },
-      "sources": {
-        "wechat": "luckincoffee瑞幸咖啡",
-        "weibo": "瑞幸咖啡",
-        "douyin": "瑞幸咖啡"
-      },
-      "tags": ["咖啡"]
-    },
-    {
-      "name": "星巴克",
-      "keywords": ["星巴克", "starbucks"],
-      "schedule": {
-        "type": "monthly",
-        "day": 12,
-        "desc": "每月12日会员日，星星双倍"
-      },
-      "sources": {
-        "wechat": "星巴克中国",
-        "weibo": "星巴克"
-      },
-      "tags": ["咖啡"]
-    },
-    {
-      "name": "古茗",
-      "keywords": ["古茗", "guming"],
-      "schedule": {
-        "type": "monthly",
-        "day": 20,
-        "desc": "每月20日会员日，公众号抢券"
-      },
-      "sources": {
-        "wechat": "古茗茶饮",
-        "weibo": "古茗",
-        "douyin": "古茗"
-      },
-      "tags": ["奶茶"]
-    },
-    {
-      "name": "益禾堂",
-      "keywords": ["益禾堂"],
-      "schedule": {
-        "type": "monthly",
-        "day": 8,
-        "desc": "每月8日会员日，买一送一"
-      },
-      "sources": {
-        "wechat": "益禾堂",
-        "weibo": "益禾堂"
-      },
-      "tags": ["奶茶"]
+      "tags": [
+        "快餐"
+      ]
     },
     {
       "name": "德克士",
-      "keywords": ["德克士", "dicos"],
+      "keywords": [
+        "德克士",
+        "dicos"
+      ],
       "schedule": {
         "type": "monthly",
-        "day": 18,
-        "desc": "每月18日会员日，专属套餐"
+        "desc": "每月18日会员日，专属套餐优惠",
+        "day": 18
       },
       "sources": {
         "wechat": "德克士",
         "weibo": "德克士"
       },
-      "tags": ["快餐"]
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "汉堡王",
+      "keywords": [
+        "汉堡王",
+        "burgerking"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，皇堡特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "汉堡王中国",
+        "weibo": "汉堡王",
+        "douyin": "汉堡王"
+      },
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "派乐汉堡",
+      "keywords": [
+        "派乐汉堡",
+        "pala"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，套餐优惠",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "派乐汉堡"
+      },
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "必胜客",
+      "keywords": [
+        "必胜客",
+        "pizzahut"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，披萨半价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "必胜客中国",
+        "weibo": "必胜客",
+        "douyin": "必胜客"
+      },
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "name": "萨莉亚",
+      "keywords": [
+        "萨莉亚",
+        "saizeriya"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，意面特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "萨莉亚"
+      },
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "name": "棒约翰",
+      "keywords": [
+        "棒约翰",
+        "papa"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，披萨特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "棒约翰"
+      },
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "name": "达美乐",
+      "keywords": [
+        "达美乐",
+        "dominos"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三七折优惠",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "达美乐比萨",
+        "weibo": "达美乐"
+      },
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "name": "叫了个炸鸡",
+      "keywords": [
+        "叫了个炸鸡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末会员日，炸鸡套餐特价",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "叫了个炸鸡"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "正新鸡排",
+      "keywords": [
+        "正新鸡排",
+        "zhengxin"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，鸡排买一送一",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "正新鸡排",
+        "weibo": "正新鸡排",
+        "douyin": "正新鸡排"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "第1佳大鸡排",
+      "keywords": [
+        "第1佳",
+        "大鸡排"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，鸡排特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "第1佳大鸡排"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "快乐星汉堡",
+      "keywords": [
+        "快乐星汉堡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，套餐优惠",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "快乐星汉堡"
+      },
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "贝克汉堡",
+      "keywords": [
+        "贝克汉堡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，套餐特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "贝克汉堡"
+      },
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "享哆味",
+      "keywords": [
+        "享哆味"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，套餐优惠",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "享哆味"
+      },
+      "tags": [
+        "快餐"
+      ]
+    },
+    {
+      "name": "魔力汉堡",
+      "keywords": [
+        "魔力汉堡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，特价套餐",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "魔力汉堡"
+      },
+      "tags": [
+        "快餐"
+      ]
     },
     {
       "name": "茶百道",
-      "keywords": ["茶百道", "cha-panda"],
+      "keywords": [
+        "茶百道",
+        "cha-panda"
+      ],
       "schedule": {
         "type": "monthly",
-        "day": 11,
-        "desc": "每月11日会员日，第二杯半价"
+        "desc": "每月11日会员日，第二杯半价",
+        "day": 11
       },
       "sources": {
         "wechat": "茶百道",
         "weibo": "茶百道",
         "douyin": "茶百道"
       },
-      "tags": ["奶茶"]
+      "tags": [
+        "奶茶"
+      ]
     },
     {
-      "name": "霸王茶姬",
-      "keywords": ["霸王茶姬", "chagee"],
+      "name": "古茗",
+      "keywords": [
+        "古茗",
+        "guming"
+      ],
       "schedule": {
         "type": "monthly",
-        "day": 17,
-        "desc": "每月17日会员日，积分翻倍"
+        "desc": "每月20日会员日，公众号抢券",
+        "day": 20
       },
       "sources": {
-        "wechat": "霸王茶姬",
-        "weibo": "霸王茶姬"
+        "wechat": "古茗茶饮",
+        "weibo": "古茗",
+        "douyin": "古茗"
       },
-      "tags": ["奶茶"]
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "益禾堂",
+      "keywords": [
+        "益禾堂"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月8日会员日，买一送一",
+        "day": 8
+      },
+      "sources": {
+        "wechat": "益禾堂",
+        "weibo": "益禾堂"
+      },
+      "tags": [
+        "奶茶"
+      ]
     },
     {
       "name": "蜜雪冰城",
-      "keywords": ["蜜雪冰城", "mixue"],
+      "keywords": [
+        "蜜雪冰城",
+        "mixue"
+      ],
       "schedule": {
         "type": "monthly",
-        "day": 6,
-        "desc": "每月6日会员日，特价饮品"
+        "desc": "每月6日会员日，特价饮品",
+        "day": 6
       },
       "sources": {
         "wechat": "蜜雪冰城",
         "weibo": "蜜雪冰城",
         "douyin": "蜜雪冰城"
       },
-      "tags": ["奶茶"]
+      "tags": [
+        "奶茶"
+      ]
     },
     {
-      "name": "华莱士",
-      "keywords": ["华莱士", "cnhls"],
+      "name": "霸王茶姬",
+      "keywords": [
+        "霸王茶姬",
+        "chagee"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月17日会员日，积分翻倍",
+        "day": 17
+      },
+      "sources": {
+        "wechat": "霸王茶姬",
+        "weibo": "霸王茶姬"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "沪上阿姨",
+      "keywords": [
+        "沪上阿姨"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，第二杯半价",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "沪上阿姨",
+        "weibo": "沪上阿姨"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "书亦烧仙草",
+      "keywords": [
+        "书亦",
+        "烧仙草"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月7日会员日，满减优惠",
+        "day": 7
+      },
+      "sources": {
+        "wechat": "书亦烧仙草",
+        "weibo": "书亦烧仙草"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "喜茶",
+      "keywords": [
+        "喜茶",
+        "heytea"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 5,
-        "desc": "周五会员日，套餐特价"
+        "desc": "每周二会员日，买一送一",
+        "weekday": 2
       },
       "sources": {
-        "wechat": "华莱士",
-        "weibo": "华莱士"
+        "wechat": "喜茶",
+        "weibo": "喜茶",
+        "douyin": "喜茶"
       },
-      "tags": ["快餐"]
+      "tags": [
+        "奶茶"
+      ]
     },
     {
-      "name": "零食很忙",
-      "keywords": ["零食很忙"],
+      "name": "奈雪的茶",
+      "keywords": [
+        "奈雪",
+        "naixue"
+      ],
       "schedule": {
-        "type": "monthly",
-        "day": 9,
-        "desc": "每月9日会员日，满减优惠"
+        "type": "weekly",
+        "desc": "每周三会员日，第二杯半价",
+        "weekday": 3
       },
       "sources": {
-        "wechat": "零食很忙",
-        "douyin": "零食很忙"
+        "wechat": "奈雪的茶",
+        "weibo": "奈雪的茶"
       },
-      "tags": ["零食"]
+      "tags": [
+        "奶茶"
+      ]
     },
     {
-      "name": "赵一鸣零食",
-      "keywords": ["赵一鸣"],
+      "name": "一点点",
+      "keywords": [
+        "一点点",
+        "1diandian",
+        "50lan"
+      ],
       "schedule": {
-        "type": "monthly",
-        "day": 16,
-        "desc": "每月16日会员日，特价零食"
+        "type": "weekly",
+        "desc": "每周一会员日，加料免费",
+        "weekday": 1
       },
       "sources": {
-        "wechat": "赵一鸣零食",
-        "douyin": "赵一鸣零食"
+        "wechat": "1点点",
+        "weibo": "一点点"
       },
-      "tags": ["零食"]
+      "tags": [
+        "奶茶"
+      ]
     },
     {
-      "name": "好想来零食",
-      "keywords": ["好想来"],
+      "name": "CoCo都可",
+      "keywords": [
+        "CoCo",
+        "都可",
+        "coco"
+      ],
       "schedule": {
-        "type": "monthly",
-        "day": 22,
-        "desc": "每月22日会员日，满减特惠"
+        "type": "weekly",
+        "desc": "每周四会员日，特价饮品",
+        "weekday": 4
       },
       "sources": {
-        "wechat": "好想来",
-        "douyin": "好想来零食"
+        "wechat": "CoCo都可",
+        "weibo": "CoCo都可"
       },
-      "tags": ["零食"]
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "甜啦啦",
+      "keywords": [
+        "甜啦啦"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月12日会员日，特价3元起",
+        "day": 12
+      },
+      "sources": {
+        "wechat": "甜啦啦",
+        "weibo": "甜啦啦",
+        "douyin": "甜啦啦"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "7分甜",
+      "keywords": [
+        "7分甜",
+        "7sweet"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，第二杯半价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "7分甜"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶颜悦色",
+      "keywords": [
+        "茶颜悦色",
+        "chayan"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月22日会员日，积分双倍",
+        "day": 22
+      },
+      "sources": {
+        "wechat": "茶颜悦色"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "乐乐茶",
+      "keywords": [
+        "乐乐茶",
+        "lelecha"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，满减优惠",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "乐乐茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "阿水大杯茶",
+      "keywords": [
+        "阿水大杯茶",
+        "阿水"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，大杯特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "阿水大杯茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "快乐柠檬",
+      "keywords": [
+        "快乐柠檬",
+        "happy",
+        "lemon"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，加料免费",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "快乐柠檬"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶理宜世",
+      "keywords": [
+        "茶理宜世"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，第二杯半价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "茶理宜世"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "丘大叔柠檬茶",
+      "keywords": [
+        "丘大叔"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，柠檬茶特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "丘大叔柠檬茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "林里手打柠檬茶",
+      "keywords": [
+        "林里",
+        "手打柠檬茶"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月9日会员日，买一送一",
+        "day": 9
+      },
+      "sources": {
+        "wechat": "林里手打柠檬茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "柠季手打柠檬茶",
+      "keywords": [
+        "柠季"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，柠檬茶特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "柠季手打柠檬茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶救星球",
+      "keywords": [
+        "茶救星球"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，第二杯半价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "茶救星球"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "KOI",
+      "keywords": [
+        "KOI",
+        "koi"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，加料免费",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "KOI"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "叔叔阿姨奶茶",
+      "keywords": [
+        "叔叔阿姨"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，特价饮品",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "叔叔阿姨奶茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "兵立王",
+      "keywords": [
+        "兵立王"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月16日会员日，买一送一",
+        "day": 16
+      },
+      "sources": {
+        "wechat": "兵立王"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "新时沏",
+      "keywords": [
+        "新时沏"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，第二杯半价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "新时沏"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "萃春风",
+      "keywords": [
+        "萃春风"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，满减优惠",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "萃春风"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "悸动烧仙草",
+      "keywords": [
+        "悸动",
+        "烧仙草"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月11日会员日，特价饮品",
+        "day": 11
+      },
+      "sources": {
+        "wechat": "悸动烧仙草"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶之舞",
+      "keywords": [
+        "茶之舞"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，第二杯半价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "茶之舞"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "一只酸奶牛",
+      "keywords": [
+        "一只酸奶牛",
+        "酸奶牛"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，酸奶特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "一只酸奶牛"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "烧柠",
+      "keywords": [
+        "烧柠",
+        "shaoning"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，柠檬茶特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "烧柠手打柠檬茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "苏阁鲜果茶",
+      "keywords": [
+        "苏阁",
+        "鲜果茶"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，鲜果茶特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "苏阁鲜果茶"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶风铃",
+      "keywords": [
+        "茶风铃"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月18日会员日，买一送一",
+        "day": 18
+      },
+      "sources": {
+        "wechat": "茶风铃"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "鲜芋仙",
+      "keywords": [
+        "鲜芋仙",
+        "meet"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，甜品特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "鲜芋仙"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "茶coco",
+      "keywords": [
+        "茶coco"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，加料免费",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "茶coco"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "瑞幸咖啡",
+      "keywords": [
+        "瑞幸",
+        "luckin"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月1日会员日，9.9元咖啡",
+        "day": 1
+      },
+      "sources": {
+        "wechat": "luckincoffee瑞幸咖啡",
+        "weibo": "瑞幸咖啡",
+        "douyin": "瑞幸咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
     },
     {
       "name": "库迪咖啡",
-      "keywords": ["库迪", "cotti"],
+      "keywords": [
+        "库迪",
+        "cotti"
+      ],
       "schedule": {
         "type": "weekly",
-        "weekday": 2,
-        "desc": "每周二会员日，8.8元咖啡"
+        "desc": "每周二会员日，8.8元咖啡",
+        "weekday": 2
       },
       "sources": {
         "wechat": "库迪咖啡",
         "weibo": "库迪咖啡",
         "douyin": "库迪咖啡"
       },
-      "tags": ["咖啡"]
+      "tags": [
+        "咖啡"
+      ]
     },
     {
-      "name": "沪上阿姨",
-      "keywords": ["沪上阿姨"],
+      "name": "星巴克",
+      "keywords": [
+        "星巴克",
+        "starbucks"
+      ],
       "schedule": {
         "type": "monthly",
-        "day": 15,
-        "desc": "每月15日会员日，第二杯半价"
+        "desc": "每月12日会员日，星星双倍",
+        "day": 12
       },
       "sources": {
-        "wechat": "沪上阿姨",
-        "weibo": "沪上阿姨"
+        "wechat": "星巴克中国",
+        "weibo": "星巴克"
       },
-      "tags": ["奶茶"]
+      "tags": [
+        "咖啡"
+      ]
     },
     {
-      "name": "书亦烧仙草",
-      "keywords": ["书亦", "烧仙草"],
+      "name": "Manner咖啡",
+      "keywords": [
+        "Manner",
+        "maner"
+      ],
       "schedule": {
-        "type": "monthly",
-        "day": 7,
-        "desc": "每月7日会员日，满减优惠"
+        "type": "weekly",
+        "desc": "每周一会员日，自带杯减5元",
+        "weekday": 1
       },
       "sources": {
-        "wechat": "书亦烧仙草",
-        "weibo": "书亦烧仙草"
+        "wechat": "MannerCoffee",
+        "weibo": "Manner咖啡"
       },
-      "tags": ["奶茶"]
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "Tims天好咖啡",
+      "keywords": [
+        "Tims",
+        "天好"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，咖啡特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "Tims天好咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "Costa咖啡",
+      "keywords": [
+        "Costa",
+        "咖世家"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月8日会员日，积分双倍",
+        "day": 8
+      },
+      "sources": {
+        "wechat": "CostaCoffee"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "幸运咖",
+      "keywords": [
+        "幸运咖",
+        "lucky"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，5元咖啡",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "幸运咖"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "M Stand",
+      "keywords": [
+        "M Stand",
+        "mstand"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，第二杯半价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "MStand"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "Seesaw咖啡",
+      "keywords": [
+        "Seesaw"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，咖啡特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "SeesawCoffee"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "Peet's咖啡",
+      "keywords": [
+        "Peet",
+        "皮爷"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，积分翻倍",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "PeetsCoffee"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "麦咖啡",
+      "keywords": [
+        "麦咖啡",
+        "mccafe"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，买一送一",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "麦咖啡McCafe"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "挪瓦咖啡",
+      "keywords": [
+        "挪瓦",
+        "nowwa"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，咖啡特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "挪瓦咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "代数学家咖啡",
+      "keywords": [
+        "代数学家"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，第二杯半价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "代数学家咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "狗不理咖啡",
+      "keywords": [
+        "狗不理咖啡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，特价咖啡",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "狗不理咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "千小麻咖啡",
+      "keywords": [
+        "千小麻"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，咖啡特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "千小麻咖啡"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "不眠海",
+      "keywords": [
+        "不眠海",
+        "Sober"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，咖啡特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "不眠海Sober"
+      },
+      "tags": [
+        "咖啡"
+      ]
+    },
+    {
+      "name": "零食很忙",
+      "keywords": [
+        "零食很忙"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月9日会员日，满减优惠",
+        "day": 9
+      },
+      "sources": {
+        "wechat": "零食很忙",
+        "douyin": "零食很忙"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "赵一鸣零食",
+      "keywords": [
+        "赵一鸣"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月16日会员日，特价零食",
+        "day": 16
+      },
+      "sources": {
+        "wechat": "赵一鸣零食",
+        "douyin": "赵一鸣零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "好想来零食",
+      "keywords": [
+        "好想来"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月22日会员日，满减特惠",
+        "day": 22
+      },
+      "sources": {
+        "wechat": "好想来",
+        "douyin": "好想来零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食有鸣",
+      "keywords": [
+        "零食有鸣"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月8日会员日，满减优惠",
+        "day": 8
+      },
+      "sources": {
+        "wechat": "零食有鸣"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食大明星",
+      "keywords": [
+        "零食大明星"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月11日会员日，特价零食",
+        "day": 11
+      },
+      "sources": {
+        "wechat": "零食大明星"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "老婆大人零食",
+      "keywords": [
+        "老婆大人"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月20日会员日，满减优惠",
+        "day": 20
+      },
+      "sources": {
+        "wechat": "老婆大人零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "糖巢零食",
+      "keywords": [
+        "糖巢"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，买一送一",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "糖巢零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食工坊",
+      "keywords": [
+        "零食工坊"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月6日会员日，满减特惠",
+        "day": 6
+      },
+      "sources": {
+        "wechat": "零食工坊"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "悠百佳零食",
+      "keywords": [
+        "悠百佳"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月18日会员日，特价零食",
+        "day": 18
+      },
+      "sources": {
+        "wechat": "悠百佳零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "贪吃小站",
+      "keywords": [
+        "贪吃小站"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月12日会员日，满减优惠",
+        "day": 12
+      },
+      "sources": {
+        "wechat": "贪吃小站"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食派对",
+      "keywords": [
+        "零食派对"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月25日会员日，特价活动",
+        "day": 25
+      },
+      "sources": {
+        "wechat": "零食派对"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "津津零食",
+      "keywords": [
+        "津津零食"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月10日会员日，满减优惠",
+        "day": 10
+      },
+      "sources": {
+        "wechat": "津津零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "戴阿姨零食",
+      "keywords": [
+        "戴阿姨"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月14日会员日，买一送一",
+        "day": 14
+      },
+      "sources": {
+        "wechat": "戴阿姨零食"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食优选",
+      "keywords": [
+        "零食优选"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月19日会员日，满减特惠",
+        "day": 19
+      },
+      "sources": {
+        "wechat": "零食优选"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "零食铺子",
+      "keywords": [
+        "零食铺子"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月7日会员日，特价零食",
+        "day": 7
+      },
+      "sources": {
+        "wechat": "零食铺子"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "好特卖",
+      "keywords": [
+        "好特卖",
+        "HotMax"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，额外折扣",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "好特卖"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "嗨特购",
+      "keywords": [
+        "嗨特购"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，临期特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "嗨特购"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "奥特乐",
+      "keywords": [
+        "奥特乐"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，折扣商品",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "奥特乐"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "7-11便利店",
+      "keywords": [
+        "7-11",
+        "711",
+        "seven"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，咖啡买一送一",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "7-11便利店"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "全家便利店",
+      "keywords": [
+        "全家",
+        "familymart"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，便当特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "全家FamilyMart"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "罗森便利店",
+      "keywords": [
+        "罗森",
+        "lawson"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，甜品特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "罗森Lawson"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "便利蜂",
+      "keywords": [
+        "便利蜂",
+        "bianlifeng"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，热餐折扣",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "便利蜂"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "美宜佳",
+      "keywords": [
+        "美宜佳",
+        "meiyijia"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月18日会员日，满减优惠",
+        "day": 18
+      },
+      "sources": {
+        "wechat": "美宜佳"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "天福便利店",
+      "keywords": [
+        "天福"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，特价商品",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "天福便利店"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "喜士多",
+      "keywords": [
+        "喜士多",
+        "c-store"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，咖啡特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "喜士多"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "快客便利",
+      "keywords": [
+        "快客",
+        "quick"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，便当折扣",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "快客便利"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "每一天便利",
+      "keywords": [
+        "每一天"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，热餐特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "每一天便利店"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "唐久便利",
+      "keywords": [
+        "唐久"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，满减优惠",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "唐久便利店"
+      },
+      "tags": [
+        "便利店"
+      ]
+    },
+    {
+      "name": "海底捞",
+      "keywords": [
+        "海底捞",
+        "haidilao"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，积分双倍",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "海底捞火锅",
+        "weibo": "海底捞"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "巴奴毛肚火锅",
+      "keywords": [
+        "巴奴",
+        "毛肚"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，菜品特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "巴奴毛肚火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "呷哺呷哺",
+      "keywords": [
+        "呷哺呷哺",
+        "xiabu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，套餐优惠",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "呷哺呷哺"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "凑凑火锅",
+      "keywords": [
+        "凑凑",
+        "coucou"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，第二锅半价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "凑凑火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "小龙坎",
+      "keywords": [
+        "小龙坎",
+        "xiaolongkan"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月8日会员日，菜品折扣",
+        "day": 8
+      },
+      "sources": {
+        "wechat": "小龙坎火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "大龙燚",
+      "keywords": [
+        "大龙燚",
+        "dayi"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月18日会员日，满减优惠",
+        "day": 18
+      },
+      "sources": {
+        "wechat": "大龙燚火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "德庄火锅",
+      "keywords": [
+        "德庄",
+        "dezhuang"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，锅底特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "德庄火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "蜀大侠",
+      "keywords": [
+        "蜀大侠"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，菜品折扣",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "蜀大侠火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "马路边边",
+      "keywords": [
+        "马路边边",
+        "malu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，串串特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "马路边边"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "贤合庄",
+      "keywords": [
+        "贤合庄"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月20日会员日，满减优惠",
+        "day": 20
+      },
+      "sources": {
+        "wechat": "贤合庄卤味火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "锅圈食汇",
+      "keywords": [
+        "锅圈",
+        "食汇"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末会员日，食材折扣",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "锅圈食汇"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "谭鸭血老火锅",
+      "keywords": [
+        "谭鸭血"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月11日会员日，锅底特价",
+        "day": 11
+      },
+      "sources": {
+        "wechat": "谭鸭血老火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "楠火锅",
+      "keywords": [
+        "楠火锅"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，菜品折扣",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "楠火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "朱光玉火锅",
+      "keywords": [
+        "朱光玉"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月16日会员日，满减优惠",
+        "day": 16
+      },
+      "sources": {
+        "wechat": "朱光玉火锅"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "真功夫",
+      "keywords": [
+        "真功夫",
+        "kungfu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，套餐特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "真功夫"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "永和豆浆",
+      "keywords": [
+        "永和豆浆",
+        "yonghe"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，早餐特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "永和豆浆"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "味千拉面",
+      "keywords": [
+        "味千拉面",
+        "ajisen"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，拉面特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "味千拉面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "吉野家",
+      "keywords": [
+        "吉野家",
+        "yoshinoya"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，套餐优惠",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "吉野家"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "食其家",
+      "keywords": [
+        "食其家",
+        "sukiya"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，牛丼特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "食其家"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "西贝莜面村",
+      "keywords": [
+        "西贝",
+        "莜面村"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，菜品折扣",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "西贝莜面村"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "外婆家",
+      "keywords": [
+        "外婆家",
+        "waipojia"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，特价菜",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "外婆家"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "绿茶餐厅",
+      "keywords": [
+        "绿茶餐厅",
+        "greentea"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，菜品折扣",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "绿茶餐厅"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "太二酸菜鱼",
+      "keywords": [
+        "太二",
+        "酸菜鱼",
+        "tai"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月12日会员日，菜品折扣",
+        "day": 12
+      },
+      "sources": {
+        "wechat": "太二酸菜鱼"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "九毛九",
+      "keywords": [
+        "九毛九",
+        "jiu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，面食特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "九毛九"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "杨国福麻辣烫",
+      "keywords": [
+        "杨国福",
+        "麻辣烫"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，满减优惠",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "杨国福麻辣烫"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "张亮麻辣烫",
+      "keywords": [
+        "张亮",
+        "麻辣烫"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，满减优惠",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "张亮麻辣烫"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "袁记云饺",
+      "keywords": [
+        "袁记",
+        "云饺"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，饺子特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "袁记云饺"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "紫光园",
+      "keywords": [
+        "紫光园"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月10日会员日，菜品折扣",
+        "day": 10
+      },
+      "sources": {
+        "wechat": "紫光园"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "庆丰包子",
+      "keywords": [
+        "庆丰",
+        "包子"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，包子特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "庆丰包子铺"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "李先生牛肉面",
+      "keywords": [
+        "李先生",
+        "牛肉面"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，面食特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "李先生牛肉面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "田老师红烧肉",
+      "keywords": [
+        "田老师",
+        "红烧肉"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，套餐特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "田老师红烧肉"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "黄记煌",
+      "keywords": [
+        "黄记煌",
+        "三汁焖锅"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月20日会员日，菜品折扣",
+        "day": 20
+      },
+      "sources": {
+        "wechat": "黄记煌三汁焖锅"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "小肥羊",
+      "keywords": [
+        "小肥羊",
+        "feiyang"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，锅底特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "小肥羊"
+      },
+      "tags": [
+        "火锅"
+      ]
+    },
+    {
+      "name": "眉州东坡",
+      "keywords": [
+        "眉州东坡",
+        "meizhou"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月18日会员日，菜品折扣",
+        "day": 18
+      },
+      "sources": {
+        "wechat": "眉州东坡"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "好利来",
+      "keywords": [
+        "好利来",
+        "holiland"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，蛋糕折扣",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "好利来"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "85度C",
+      "keywords": [
+        "85度",
+        "85c"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，面包特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "85度C"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "DQ冰雪皇后",
+      "keywords": [
+        "DQ",
+        "冰雪皇后",
+        "dairy"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，第二杯半价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "DQ冰雪皇后"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "满记甜品",
+      "keywords": [
+        "满记甜品",
+        "hui"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，甜品特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "满记甜品"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "巴黎贝甜",
+      "keywords": [
+        "巴黎贝甜",
+        "paris"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，面包折扣",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "巴黎贝甜"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "仟吉",
+      "keywords": [
+        "仟吉",
+        "kenjee"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月11日会员日，蛋糕折扣",
+        "day": 11
+      },
+      "sources": {
+        "wechat": "仟吉"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "面包新语",
+      "keywords": [
+        "面包新语",
+        "breadtalk"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，面包特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "面包新语"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "味多美",
+      "keywords": [
+        "味多美",
+        "wedome"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，蛋糕折扣",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "味多美"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "采蝶轩",
+      "keywords": [
+        "采蝶轩"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，面包折扣",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "采蝶轩"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "安德鲁森",
+      "keywords": [
+        "安德鲁森",
+        "anderson"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，面包特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "安德鲁森"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "哈根达斯",
+      "keywords": [
+        "哈根达斯",
+        "haagen"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月20日会员日，冰淇淋特价",
+        "day": 20
+      },
+      "sources": {
+        "wechat": "哈根达斯"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "贝思客",
+      "keywords": [
+        "贝思客",
+        "best"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月12日会员日，蛋糕折扣",
+        "day": 12
+      },
+      "sources": {
+        "wechat": "贝思客"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "仙踪林",
+      "keywords": [
+        "仙踪林",
+        "rubber"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，饮品特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "仙踪林"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "派悦坊",
+      "keywords": [
+        "派悦坊",
+        "pantry"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末会员日，甜品特价",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "派悦坊"
+      },
+      "tags": [
+        "甜品"
+      ]
+    },
+    {
+      "name": "叫了个鸡",
+      "keywords": [
+        "叫了个鸡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，炸鸡特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "叫了个鸡"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "第一佳鸡排",
+      "keywords": [
+        "第一佳",
+        "鸡排"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，鸡排买一送一",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "第一佳鸡排"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "疯狂大鸡排",
+      "keywords": [
+        "疯狂",
+        "鸡排"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，鸡排特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "疯狂大鸡排"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "桥头排骨",
+      "keywords": [
+        "桥头排骨"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，排骨特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "桥头排骨"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "夸父炸串",
+      "keywords": [
+        "夸父",
+        "炸串"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，串串买一送一",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "夸父炸串"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "喜茶炸鸡",
+      "keywords": [
+        "喜茶炸鸡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，炸鸡特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "喜茶炸鸡"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "汉拿山",
+      "keywords": [
+        "汉拿山",
+        "hanashan"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，烤肉折扣",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "汉拿山"
+      },
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "name": "权金城",
+      "keywords": [
+        "权金城",
+        "quanjincheng"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，烤肉折扣",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "权金城"
+      },
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "name": "九田家烤肉",
+      "keywords": [
+        "九田家",
+        "烤肉"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，烤肉特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "九田家烤肉"
+      },
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "name": "姜仔鸭烤肉",
+      "keywords": [
+        "姜仔鸭"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，烤肉折扣",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "姜仔鸭烤肉"
+      },
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "name": "正新肉串",
+      "keywords": [
+        "正新肉串"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，肉串特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "正新肉串"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "百草味",
+      "keywords": [
+        "百草味",
+        "baicaowei"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月11日会员日，零食满减",
+        "day": 11
+      },
+      "sources": {
+        "wechat": "百草味"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "三只松鼠",
+      "keywords": [
+        "三只松鼠",
+        "松鼠"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，坚果满减",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "三只松鼠"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "良品铺子",
+      "keywords": [
+        "良品铺子",
+        "lyfeng"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月20日会员日，满减优惠",
+        "day": 20
+      },
+      "sources": {
+        "wechat": "良品铺子"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "来伊份",
+      "keywords": [
+        "来伊份",
+        "laiyifen"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月17日会员日，会员特价",
+        "day": 17
+      },
+      "sources": {
+        "wechat": "来伊份"
+      },
+      "tags": [
+        "零食"
+      ]
+    },
+    {
+      "name": "和府捞面",
+      "keywords": [
+        "和府捞面",
+        "hefu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，面食特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "和府捞面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "遇见小面",
+      "keywords": [
+        "遇见小面",
+        "小面"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，小面特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "遇见小面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "五爷拌面",
+      "keywords": [
+        "五爷拌面",
+        "wuye"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，拌面特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "五爷拌面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "常青麦香园",
+      "keywords": [
+        "麦香园",
+        "热干面"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，热干面特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "常青麦香园"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "陈香贵牛肉面",
+      "keywords": [
+        "陈香贵",
+        "牛肉面"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，面食特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "陈香贵"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "张拉拉手擀面",
+      "keywords": [
+        "张拉拉",
+        "手擀面"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，面食特价",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "张拉拉手擀面"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "霸蛮米粉",
+      "keywords": [
+        "霸蛮",
+        "米粉"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，米粉特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "霸蛮米粉"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "美团外卖",
+      "keywords": [
+        "美团",
+        "外卖",
+        "meituan"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五神券日，大额红包",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "美团外卖",
+        "weibo": "美团外卖",
+        "douyin": "美团外卖"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "饿了么",
+      "keywords": [
+        "饿了么",
+        "eleme"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五吃货日，红包雨",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "饿了么",
+        "weibo": "饿了么"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "大众点评",
+      "keywords": [
+        "大众点评",
+        "dianping"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三霸王餐抽奖",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "大众点评",
+        "weibo": "大众点评"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "抖音生活服务",
+      "keywords": [
+        "抖音",
+        "生活服务",
+        "douyin"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四团购特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "抖音生活服务"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "口碑",
+      "keywords": [
+        "口碑",
+        "koubei"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二口碑日，满减优惠",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "口碑"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "京东到家",
+      "keywords": [
+        "京东到家",
+        "jddj"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末特惠，即时零售折扣",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "京东到家"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "朴朴超市",
+      "keywords": [
+        "朴朴",
+        "pupu"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，满减优惠",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "朴朴超市"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "叮咚买菜",
+      "keywords": [
+        "叮咚",
+        "dingdong"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，买菜折扣",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "叮咚买菜"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "美团优选",
+      "keywords": [
+        "美团优选"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四团购特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "美团优选"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "多多买菜",
+      "keywords": [
+        "多多买菜",
+        "duoduo"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二自提特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "多多买菜"
+      },
+      "tags": [
+        "平台"
+      ]
+    },
+    {
+      "name": "招行掌上生活",
+      "keywords": [
+        "掌上生活",
+        "招商银行"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三七折美食",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "掌上生活"
+      },
+      "tags": [
+        "信用卡"
+      ]
+    },
+    {
+      "name": "交行买单吧",
+      "keywords": [
+        "买单吧",
+        "交通银行"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五最红星期五，餐饮5折",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "买单吧"
+      },
+      "tags": [
+        "信用卡"
+      ]
+    },
+    {
+      "name": "中信动卡空间",
+      "keywords": [
+        "动卡空间",
+        "中信银行"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四9积分兑美食",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "动卡空间"
+      },
+      "tags": [
+        "信用卡"
+      ]
+    },
+    {
+      "name": "浦发浦大喜奔",
+      "keywords": [
+        "浦大喜奔",
+        "浦发银行"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一超瓜分，消费立减",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "浦大喜奔"
+      },
+      "tags": [
+        "信用卡"
+      ]
+    },
+    {
+      "name": "建行生活",
+      "keywords": [
+        "建行生活",
+        "建设银行"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二生活券，外卖折扣",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "建行生活"
+      },
+      "tags": [
+        "信用卡"
+      ]
+    },
+    {
+      "name": "云闪付",
+      "keywords": [
+        "云闪付",
+        "银联"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末立减，超市/餐饮优惠",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "云闪付"
+      },
+      "tags": [
+        "支付"
+      ]
+    },
+    {
+      "name": "支付宝口碑",
+      "keywords": [
+        "支付宝",
+        "口碑"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一消费红包",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "支付宝"
+      },
+      "tags": [
+        "支付"
+      ]
+    },
+    {
+      "name": "微信支付",
+      "keywords": [
+        "微信支付",
+        "wechatpay"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五摇免单，随机立减",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "微信支付"
+      },
+      "tags": [
+        "支付"
+      ]
+    },
+    {
+      "name": "绝味鸭脖",
+      "keywords": [
+        "绝味",
+        "鸭脖",
+        "juewei"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，鸭脖买一送一",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "绝味鸭脖",
+        "weibo": "绝味鸭脖",
+        "douyin": "绝味鸭脖"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "周黑鸭",
+      "keywords": [
+        "周黑鸭",
+        "zhouheiya"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月10日会员日，满减优惠",
+        "day": 10
+      },
+      "sources": {
+        "wechat": "周黑鸭",
+        "weibo": "周黑鸭",
+        "douyin": "周黑鸭"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "煌上煌",
+      "keywords": [
+        "煌上煌",
+        "huangshang"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月16日会员日，卤味特价",
+        "day": 16
+      },
+      "sources": {
+        "wechat": "煌上煌"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "紫燕百味鸡",
+      "keywords": [
+        "紫燕",
+        "百味鸡"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，卤味折扣",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "紫燕百味鸡"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "廖排骨",
+      "keywords": [
+        "廖排骨"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，排骨特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "廖排骨"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "久久丫",
+      "keywords": [
+        "久久丫",
+        "jiujiuya"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，鸭脖特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "久久丫"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "留夫鸭",
+      "keywords": [
+        "留夫鸭",
+        "liufu"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月12日会员日，卤味折扣",
+        "day": 12
+      },
+      "sources": {
+        "wechat": "留夫鸭"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "德州扒鸡",
+      "keywords": [
+        "德州扒鸡",
+        "dezhou"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月15日会员日，扒鸡特价",
+        "day": 15
+      },
+      "sources": {
+        "wechat": "德州扒鸡"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "粒上皇",
+      "keywords": [
+        "粒上皇",
+        "lishanghuang"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五会员日，板栗买一送一",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "粒上皇"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "薛记炒货",
+      "keywords": [
+        "薛记",
+        "炒货"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，炒货特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "薛记炒货"
+      },
+      "tags": [
+        "小吃"
+      ]
+    },
+    {
+      "name": "王仁和米线",
+      "keywords": [
+        "王仁和",
+        "米线"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周二会员日，米线特价",
+        "weekday": 2
+      },
+      "sources": {
+        "wechat": "王仁和米线"
+      },
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "name": "奈雪的茶PRO",
+      "keywords": [
+        "奈雪PRO"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周三会员日，饮品特价",
+        "weekday": 3
+      },
+      "sources": {
+        "wechat": "奈雪的茶PRO"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "茶百道mini",
+      "keywords": [
+        "茶百道mini"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周一会员日，小杯特价",
+        "weekday": 1
+      },
+      "sources": {
+        "wechat": "茶百道"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "蜜雪冰城外卖",
+      "keywords": [
+        "蜜雪外卖"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周末外卖特价，免配送费",
+        "weekday": 6
+      },
+      "sources": {
+        "wechat": "蜜雪冰城"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "沪上阿姨鲜果茶",
+      "keywords": [
+        "沪上鲜果"
+      ],
+      "schedule": {
+        "type": "monthly",
+        "desc": "每月25日会员日，鲜果茶特价",
+        "day": 25
+      },
+      "sources": {
+        "wechat": "沪上阿姨"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "CoCo鲜芋牛奶",
+      "keywords": [
+        "CoCo鲜芋"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "每周四会员日，鲜芋特价",
+        "weekday": 4
+      },
+      "sources": {
+        "wechat": "CoCo都可"
+      },
+      "tags": [
+        "奶茶"
+      ]
+    },
+    {
+      "name": "霸王茶姬外卖",
+      "keywords": [
+        "霸王外卖"
+      ],
+      "schedule": {
+        "type": "weekly",
+        "desc": "周五外卖特价，免配送费",
+        "weekday": 5
+      },
+      "sources": {
+        "wechat": "霸王茶姬"
+      },
+      "tags": [
+        "奶茶"
+      ]
     }
   ],
   "platforms": {
